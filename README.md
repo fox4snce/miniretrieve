@@ -33,9 +33,8 @@ windows command prompt:
 set OPENAI_API_KEY=your_key_here
 ```
 
-
-#Usage
-##Load a File
+# Usage
+## Load a File
 
 Before you start the Flask app, you should specify the path to the document from which you want to retrieve text. You can do this in the vectordb.py file, specifically in this line:
 
