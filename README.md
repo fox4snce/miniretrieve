@@ -19,11 +19,20 @@ $ source env/bin/activate  # On Windows, use `env\Scripts\activate`
 ```
 $ pip install -r requirements.txt
 ```
-4. Set the environment variables, for example:
+4. Add your openai key to the vectordb.py file OR from the command line:
+ubuntu:
 ```
-$ export AZURE_OPENAI_API_KEY="your_key"
-$ export AZURE_OPENAI_ENDPOINT="your_endpoint"
+export OPENAI_API_KEY="your_key"
 ```
+windows powershell:
+```
+$env:OPENAI_API_KEY="your_key_here"
+```
+windows command prompt:
+```
+set OPENAI_API_KEY=your_key_here
+```
+
 
 #Usage
 ##Load a File
