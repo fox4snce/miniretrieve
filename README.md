@@ -51,7 +51,7 @@ $ python api.py
 
 This will start the Flask server on port 5000.
 
-##Make a Call to the API
+## Make a Call to the API
 
 To retrieve text from your documents, you need to make a POST request to the **'/retrieve'** endpoint. The request should contain a JSON body with a text field which is the query you're submitting to the **'text'** retrieval function.
 
